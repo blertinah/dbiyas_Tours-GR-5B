@@ -270,7 +270,9 @@ text-align: center;
         height: 30px;
     
     }
-    
+    .titulli{
+        color: #115779;
+    }
     .person {
         display: flex;
         flex-direction: row;
