@@ -400,15 +400,15 @@ ul {
 }
 
 #butonat2 {
-    
-        width: 200px;
-        height: 40px;
-        background-color: white;
-        border: 2px solid #3D55CC;
-        margin-left: 70px;
-        cursor: pointer;
-        border-radius: 5px;
-        margin-bottom: 10px;
+
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid #3D55CC;
+    margin-left: 70px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .butonat:hover {
@@ -586,76 +586,78 @@ ul {
     width: 350px;
     height: 40px;
 }
+
 .tekst {
-        text-align: center;
-        font-size: 20px;
-    
-    }
-     .toure {
-        width: 450px;
-        height: 240px;
-        border-radius: 10px;
-    
-    }
-    .prindi-toureve {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: baseline;
-        flex-wrap: wrap;
-    
-    }
-    .p1{
-        margin-top: 10px;
-    }
-    
-    .femija-tour {
-    
-        position: relative;
-        bottom: 50px;
-        text-align: center;
-        color: white;
-        padding-top: 0px;
-        background-color: #1f244a;
-        width: 450px;
-        height: 40px;
-        border-radius: 10px;
-        font-size: 20px;
-    }
-    
-    .a2 {
-        text-decoration: underline;
-        color: white;
-    
-    }
-    
-        /* main h1 {
-        text-align: center;
-        color: #115779;
-        font-size: 40px;
-    }
-      */
-       main h2 {
-        text-align: center;
-        font-size: 40px;
-        color: #115779;
-        font-size: 40px;
-    }
-      
- 
-  .maiin {
-      margin: auto;
-      margin-top: 40px;
-    
-    }
-    body {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.toure {
+    width: 450px;
+    height: 240px;
+    border-radius: 10px;
+
+}
+
+.prindi-toureve {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+
+}
+
+.p1 {
+    margin-top: 10px;
+}
+
+.femija-tour {
+
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 0px;
+    background-color: #1f244a;
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.a2 {
+    text-decoration: underline;
+    color: white;
+
+}
+
+
+main h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #115779;
+    font-size: 40px;
+}
+
+
+.maiin {
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
     color: #333;
     margin: 0;
     padding: 0;
 }
-h1, h2 {
+
+h1,
+h2 {
     color: #115779;
     text-align: center;
     margin-bottom: 20px;
@@ -680,14 +682,16 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
 .rrethNesh {
     line-height: 1.8;
     margin-top: 20px;
 }
-   .linqe {
-        text-decoration: underline;
-        color: black;
-    }
+
+.linqe {
+    text-decoration: underline;
+    color: black;
+}
 
 .rrethNesh p {
     font-size: 18px;
@@ -734,7 +738,8 @@ ul li {
     padding: 40px 20px;
 }
 
-.footer .prindi6, .footer .prindi7 {
+.footer .prindi6,
+.footer .prindi7 {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -745,12 +750,14 @@ ul li {
     font-weight: bold;
 }
 
-.footer .prindi-li, .footer .prindi-li2 {
+.footer .prindi-li,
+.footer .prindi-li2 {
     list-style: none;
     padding: 0;
 }
 
-.footer .prindi-li li, .footer .prindi-li2 li {
+.footer .prindi-li li,
+.footer .prindi-li2 li {
     font-size: 16px;
     margin-bottom: 10px;
 }
@@ -759,9 +766,11 @@ ul li {
     color: #ffcc00;
     text-decoration: none;
 }
+
 .footer li {
     color: #ffcc00;
 }
+
 .footer a:hover {
     text-decoration: underline;
 }
@@ -770,7 +779,8 @@ ul li {
     font-size: 16px;
 }
 
-footer .prindi6, footer .prindi7 {
+footer .prindi6,
+footer .prindi7 {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 8px;
@@ -784,15 +794,16 @@ footer .prindi6 {
 footer .prindi7 {
     background-color: #34495e;
 }
+
 body {
-     padding-top: 30px;
-     }
-     
+    padding-top: 30px;
+}
+
 .more-photos {
     display: none;
 }
 
-/* Butoni për View More / View Less */
+
 #viewMoreBtn {
     margin-top: 20px;
     padding: 10px 20px;
@@ -800,15 +811,91 @@ body {
     cursor: pointer;
 }
 
-#viewMoreBtn
-{
+#viewMoreBtn {
     width: 38%;
-    margin-left:350px;
+    margin-left: 350px;
     background-color: #e2e7ed;
-    border:none;
-    box-shadow:1px 4px 6px rgba(0, 0, 0, 0.1) ;
+    border: none;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.1);
 }
-.fotobutton{
-    
+
+.fotobutton {
+
     height: 15px;
+}
+
+.kyqumeemail {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+ 
+    align-items: center;
+    justify-content: center;
+}
+
+.kyqumeemil1 {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.kyqumeemail2 {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.kyqumeemail3 {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.kyqumeemail4 {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 5px;
+
+}
+
+.kyqumeemail5 {
+    padding: 8px 12px;
+    margin-left: 26%;
+    color: #d8e2e7;
+    background-color: #115779;
+    border-radius:10px ;
+    margin-top: 25px;
+    padding: 10px 50px 10px 50px;
+
+    
+}
+
+.kyqumeemail6 {
+   margin-left: 280px;
+    border: #ffffff;
+    background-color: #ffffff;
+    border-radius: 5px;
+   
+    
+}
+.kyqumeemail6:hover{
+    background-color: rgb(209, 206, 234);
+}
+.kyqufile{
+    color: #115779;
+    text-align: center;
+    font-size: 30px;
+  
+}
+.otherway{
+    margin-left: 178px;
+    font-size: 13px;
+   margin-top: 5px;     
+    margin-bottom: 10px;
+    font-size: 13px;
+    cursor: pointer;
+   
+
 }
