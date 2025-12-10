@@ -829,7 +829,7 @@ body {
     position: fixed;
     inset: 0;
     background: rgba(0, 0, 0, 0.5);
- 
+
     align-items: center;
     justify-content: center;
 }
@@ -865,41 +865,45 @@ body {
     margin-left: 26%;
     color: #d8e2e7;
     background-color: #115779;
-    border-radius:10px ;
+    border-radius: 10px;
     margin-top: 25px;
     padding: 10px 50px 10px 50px;
 
-    
+
 }
 
 .kyqumeemail6 {
-   margin-left: 280px;
+    margin-left: 280px;
     border: #ffffff;
     background-color: #ffffff;
     border-radius: 5px;
-   
-    
+
+
 }
-.kyqumeemail6:hover{
+
+.kyqumeemail6:hover {
     background-color: rgb(209, 206, 234);
 }
-.kyqufile{
+
+.kyqufile {
     color: #115779;
     text-align: center;
     font-size: 30px;
-  
-}
-.otherway{
-    margin-left: 178px;
-    font-size: 13px;
-   margin-top: 5px;     
-    margin-bottom: 10px;
-    font-size: 13px;
-    cursor: pointer; 
 
 }
-.fotobutton{
-    
+
+.otherway {
+    margin-left: 178px;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+
+.fotobutton {
+
     height: 15px;
 }
 
@@ -912,10 +916,12 @@ body {
     padding: 0;
     background: url(foto/foto1.jpg) no-repeat center center/cover;
 }
-#lapland{
+
+#lapland {
     color: #000;
 
 }
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -951,15 +957,16 @@ body {
 
 .offer ul li:before {
     content: '\2713';
-    color:#115779;
+    color: #115779;
     margin-right: 10px;
 }
 
 .offe ul li:before {
     content: '\2713';
-    color:#115779;
+    color: #115779;
     margin-right: 10px;
 }
+
 .form {
     background: #fff;
     color: #000;
@@ -974,7 +981,9 @@ body {
     margin-bottom: 20px;
 }
 
-.form input, .form select, .form button {
+.form input,
+.form select,
+.form button {
     width: 100%;
     margin-bottom: 15px;
     padding: 10px;
@@ -984,7 +993,7 @@ body {
 }
 
 .form button {
-    background:#115779;
+    background: #115779;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -1039,6 +1048,7 @@ body {
     color: #777;
     margin-bottom: 15px;
 }
+
 .testimonials {
     text-align: center;
     padding: 50px 20px;
@@ -1108,9 +1118,502 @@ body {
     color: #f1c40f;
 }
 
- 
+
 
 
 
 .more-photos {
     display: none;
+}
+
+.tekst {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.dubai-tour {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+
+.dubai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.foto-dubai {
+    width: 573px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.dubai-abudhabi3 {
+
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    padding-left: 10px;
+
+}
+
+.dubai-abudhabi2 {
+    display: flex;
+    flex-direction: row;
+
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    margin-bottom: 88px;
+}
+
+.dubai-abudhabi {
+    width: 200px;
+    height: 190px;
+    border-radius: 10px;
+
+}
+
+.rezervimi {
+
+    position: absolute;
+    background-color: white;
+    margin-top: 370px;
+    width: 435px;
+    box-shadow: 0px 16px 32px -4px rgba(62, 52, 69, 0.1), 0px 2px 4px rgba(62, 52, 69, 0.04);
+    font-size: 20px;
+    color: #4F575E;
+}
+
+.shpjegimi {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+
+
+.rezervimi-2 {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.detaje hr {
+    margin: 10px;
+}
+
+#cmimi1 {
+    border: 2px solid #F97316;
+    background-color: #F97316;
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+#cmimi2 {
+    border: 2px solid #F97316;
+    background-color: #F97316;
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+#cmimi3 {
+    border: 2px solid #F97316;
+    background-color: #F97316;
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+#cmimi4 {
+    border: 2px solid #F97316;
+    background-color: #F97316;
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+#cmimi5 {
+    border: 2px solid #F97316;
+    background-color: #F97316;
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+#cmimi6 {
+    border: 2px solid #F97316;
+    background-color: #F97316;
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+
+
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.table td,
+th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.detaje {
+    box-shadow: 0px 16px 32px -4px rgba(62, 52, 69, 0.1), 0px 2px 4px rgba(62, 52, 69, 0.04);
+    font-size: 17px;
+    text-align: center;
+    width: 1000px;
+    margin-left: 100px;
+
+}
+
+.detaje p {
+    color: #4F575E;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.detaje h3 {
+    color: #475058;
+}
+
+.detaje li {
+    margin-top: 17px;
+}
+
+.p {
+    font-size: 30px;
+}
+
+.li-mgjyra {
+    color: green;
+}
+
+.ul0 {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: baseline;
+    font-size: 20px;
+}
+
+.ne-cmim-perfshihet {
+    border: 2px solid #4F575E;
+    width: 550px;
+    padding: 10px;
+}
+
+.li-mgjyra2 {
+    color: red;
+}
+
+.cmimet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.ul1 {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+    align-items: baseline;
+    font-size: 20px;
+    margin-left: 60px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #115779;
+}
+
+.shenim {
+    background-color: #eff6ff;
+    width: 1000px;
+    font-size: 20px;
+    margin-left: 180px;
+    padding: 30px;
+    margin-top: 70px
+}
+
+.shenim h3 {
+    color: #115779;
+    font-size: 25px;
+}
+
+.foto-viena {
+
+
+    width: 900px;
+    height: 450px;
+    margin-left: 133px;
+}
+
+.viena-tour {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    box-shadow: 0px 16px 32px -4px rgba(62, 52, 69, 0.1), 0px 2px 4px rgba(62, 52, 69, 0.04);
+    margin-left: 133px;
+    width: 900px;
+}
+
+.Udhetimi-vien {
+    font-size: 20px;
+    margin-left: 133px;
+
+}
+
+.vienna {
+    width: 25px;
+    height: 25px;
+}
+
+.viena {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: 20px;
+
+
+}
+
+
+.fotot-e-vienes {
+    width: 310px;
+    height: 270px;
+    margin-top: 40px;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+
+.rreth-udhtimi {
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+.fluturimii {
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    align-items: baseline;
+}
+
+.detajet {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 90px;
+
+    font-size: 20px;
+}
+
+.detajet-udhetimit {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.hr-ja {
+    padding: 10px;
+}
+
+.tabela {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+
+.maiin {
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+.linqe {
+    text-decoration: underline;
+    color: black;
+}
+
+.h3-sh {
+    font-size: 20px;
+    text-align: center;
+    color: #D99528;
+}
+
+
+
+
+
+.tabela td,
+th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.foto-viena {
+
+
+    width: 900px;
+    height: 450px;
+    margin-left: 133px;
+}
+
+.viena-tour {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    box-shadow: 0px 16px 32px -4px rgba(62, 52, 69, 0.1), 0px 2px 4px rgba(62, 52, 69, 0.04);
+    margin-left: 133px;
+    width: 900px;
+}
+
+.Udhetimi-vien {
+    font-size: 20px;
+    margin-left: 133px;
+
+}
+
+.vienna {
+    width: 25px;
+    height: 25px;
+}
+
+.viena {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: 20px;
+
+
+}
+
+
+.fotot-e-vienes {
+    width: 310px;
+    height: 270px;
+    margin-top: 40px;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+
+.rreth-udhtimi {
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+.fluturimii {
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    align-items: baseline;
+}
+
+.detajet {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 90px;
+
+    font-size: 20px;
+}
+
+.detajet-udhetimit {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.hr-ja {
+    padding: 10px;
+}
+
+.tabela {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+
+.maiin {
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+.linqe {
+    text-decoration: underline;
+    color: black;
+}
+
+.h3-sh {
+    font-size: 20px;
+    text-align: center;
+    color: #D99528;
+}
