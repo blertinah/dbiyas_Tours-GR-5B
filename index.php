@@ -379,4 +379,17 @@
 
 </body>
 
+
 </html>
+<?php
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db   = "dbyas_tour";
+
+$conn = mysqli_connect($host, $user, $pass, $db);
+
+if (!$conn) {
+    die("Lidhja deshtoi: " . mysqli_connect_error());
+}
+?>
