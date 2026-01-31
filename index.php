@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,28 +44,32 @@
                 <img class="imazhii" src="foto/WhatsApp.png" alt="logo">
                 Whatsapp</button>
 
-            <button id="kycuBtn" type="button" class="butoni2">Kycu</button>
+           
+            <?php if (isset($_SESSION['user'])): ?>
+
+                Hello <?= $_SESSION['user']; ?>
+
+            <?php else: ?>
+
+                <button id="kycuBtn">Kyçu</button>
+
+            <?php endif; ?>
+
 
 
             <div id="loginModal" class="kyqumeemail">
-                <div class="kyqumeemil1">
-                    <button id="closeLogin" class="kyqumeemail6">X</button>
-                    <h3 class="kyqufile">Sign in to your account</h3>
-                    <label>Username</label>
-                    <input type="text" class="kyqumeemail2" placeholder="Username">
+                <form action="login.php" method="POST" class="kyqumeemil1">
 
-                    <label>Email</label>
-                    <input type="email" class="kyqumeemail3" placeholder="Username@gmail.com">
+                    <input name="username" placeholder="Username">
 
-                    <label>Password</label>
-                    <input type="password" class="kyqumeemail4" placeholder="Password">
+                    <input name="password" type="password" placeholder="Password">
 
-                    <a href="index.html" class="otherway">Forgot password? </a>
-                    <br>
-                    <button class="kyqumeemail5">Log in</button>
+                    <button name="login">Login</button>
+
+                </form>
 
 
-                </div>
+            </div>
             </div>
             </div>
         </ul>
@@ -382,14 +387,5 @@
 
 </html>
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "dbyas_tour";
 
-$conn = mysqli_connect($host, $user, $pass, $db);
-
-if (!$conn) {
-    die("Lidhja deshtoi: " . mysqli_connect_error());
-}
 ?>
