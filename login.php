@@ -1,32 +1,38 @@
 <?php
-session_start();
-include "config.php";
+include "config/db.php";
 
 if(isset($_POST['login'])){
 
-$user = $_POST['username'];
-$pass = $_POST['password'];
+$username = $_POST['username'];
+$password = $_POST['password'];
 
-$sql = "SELECT * FROM users WHERE username='$user'";
-$res = mysqli_query($conn,$sql);
+$sql = $conn->prepare("SELECT * FROM users WHERE username=?");
+$sql->bind_param("s",$username);
+$sql->execute();
 
-if(mysqli_num_rows($res)==1){
+$result = $sql->get_result();
 
-$row = mysqli_fetch_assoc($res);
+if($result->num_rows==1){
 
-if(password_verify($pass,$row['password'])){
+$user = $result->fetch_assoc();
 
-$_SESSION['user']=$row['username'];
-header("Location:index.php");
-exit;
+if(password_verify($password,$user['password'])){
 
+$_SESSION['user']=$user['username'];
+$_SESSION['role']=$user['role'];
+
+if($user['role']=="admin"){
+ header("Location: dashboard.php");
 }else{
-echo "Password gabim";
+ header("Location: index.php");
 }
 
 }else{
-echo "User nuk ekziston";
+ echo "Password gabim";
 }
 
+}else{
+ echo "User nuk ekziston";
+}
 }
 ?>

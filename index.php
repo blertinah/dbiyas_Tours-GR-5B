@@ -44,16 +44,12 @@
                 <img class="imazhii" src="foto/WhatsApp.png" alt="logo">
                 Whatsapp</button>
 
-           
-            <?php if (isset($_SESSION['user'])): ?>
+          <?php if(isset($_SESSION['user'])): ?>
 
-                Hello <?= $_SESSION['user']; ?>
+Hello <?= $_SESSION['user']; ?>
+<a href="logout.php">Logout</a>
 
-            <?php else: ?>
-
-                <button id="kycuBtn">Kyçu</button>
-
-            <?php endif; ?>
+<?php endif; ?>
 
 
 
